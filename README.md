@@ -1,4 +1,8 @@
 # gonn (gene ontology neural network)
+
+Usage with the provided sample data:
+python gonn.py -t training.fasta -c control.fasta
+
 gonn is a basic TensorFlow neural network used to identify patterns in amino acid sequences indicative of a protein's molecular function. Using a small dataset it achieved an accuracy of 65%, indicating the potential for somewhat reliable identification with larger datasets.
 
 
